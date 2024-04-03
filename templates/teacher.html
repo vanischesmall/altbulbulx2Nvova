@@ -1,0 +1,8 @@
+<h1>{{ teacher.name }}</h1>
+
+{% for feedback in teacher.feedback %}
+<div>
+  <p>Rating: {{ feedback.rating }}</p> 
+  <p>Feedback: {{ feedback.text }}</p>
+</div>
+{% endfor %}

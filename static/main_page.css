@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    width: auto;
+    height: 1600px;
+    background-image: url(images/img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.in_cont{
+    padding:10vh 0;
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right{
+    width: 50vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_upper{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.bottom_text{
+    height: 100px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.button{
+    margin-top: 25px;
+    font-size: 30px;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s;
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: local('MyriadPro'),
+    url(MYRIADPRO-REGULAR.OTF);
+}
+*{
+    color: white;
+    font-family: 'MyriadPro';
+}

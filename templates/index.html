@@ -1,0 +1,7 @@
+{% for teacher in teachers %}
+<div>
+  <a href="{{ url_for('view_teacher', teacher_id=teacher.id) }}">
+    {{ teacher.name }}
+  </a>
+</div>
+{% endfor %}
